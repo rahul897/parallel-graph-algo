@@ -1,0 +1,416 @@
+Input1
+------------------------------------------------------------------------------------
+Matrix A
+
+0 1 1 0 0
+1 0 1 1 1
+1 1 0 1 1
+0 1 1 0 1
+0 1 1 1 0
+
+Matrix B
+
+0 1 1 0 0
+1 0 1 1 0
+1 1 0 1 1
+0 1 1 0 1
+0 0 1 1 0
+
+Output1
+---------------------------------------------------
+$ ./a.out 5 5
+-----------H-------------
+0.736238 0.31109 0.20964 0.929359 0.238592 
+0.547918 0.793673 0.170441 0.764188 0.862711 
+0.545449 0.464462 0.845723 0.491372 0.725038 
+0.380735 0.209499 0.171007 0.444842 0.0883552 
+0.564043 0.702384 0.524677 0.299787 0.820271 
+enter the value of s 
+15
+
+enter the value of n : 
+1000
+enter the value of alpha :
+0.787
+2 4 4 3 3 
+
+2 3 4 3 2 
+
+simi matrix
+
+
+0.332162 0.430165 0.412738 0.46971 0.314642 
+0.36861 0.724161 0.588396 0.537803 0.583878 
+0.458278 0.859381 0.955391 0.632026 0.6916 
+0.349817 0.607727 0.607904 0.516327 0.417295 
+0.28913 0.495876 0.453291 0.314693 0.430308 
+
+vertex 1 of first graph  is most similiar to  vertex 1 of second graph
+vertex 2 of first graph  is most similiar to  vertex 2 of second graph
+vertex 3 of first graph  is most similiar to  vertex 3 of second graph
+vertex 4 of first graph  is most similiar to  vertex 4 of second graph
+vertex 5 of first graph  is most similiar to  vertex 5 of second graph
+
+-----Input2-------------------------------
+
+Matrix A
+
+0 1 1 0 1 1 0
+1 0 1 1 0 0 0
+1 1 0 0 0 1 0
+0 1 0 0 0 0 1
+1 0 0 0 0 1 0
+1 0 1 0 1 0 1
+0 0 0 1 0 1 0
+
+Matrix B
+
+0 1 1 0 1 1 0
+1 0 1 1 0 0 0
+1 1 0 0 0 1 0
+0 1 0 0 0 0 1
+1 0 0 0 0 1 0
+1 0 1 0 1 0 1
+0 0 0 1 0 1 0
+
+----------------Output2--------------------
+
+
+$ ./a.out 7 7
+-----------H-------------
+0.382929 0.963524 0.72697 0.92142 0.622347 0.75141 0.337217 
+0.366403 0.528354 0.225995 0.639719 0.199692 0.0520356 0.535317 
+0.0483844 0.906661 0.453363 0.609864 0.147915 0.653033 0.602803 
+0.809958 0.489279 0.893759 0.508587 0.00527577 0.714934 0.0641877 
+0.185314 0.756827 0.572014 0.640519 0.566096 0.58039 0.761312 
+0.855736 0.975623 0.422265 0.238667 0.1963 0.559694 0.0561664 
+0.8378 0.39859 0.608114 0.0473754 0.815233 0.204213 0.957947 
+enter the value of s 
+15
+
+enter the value of n : 
+1000
+enter the value of alpha :
+0.878
+4 3 3 2 2 4 2 
+
+4 3 3 2 2 4 2 
+
+simi matrix
+
+
+0.91777 0.781745 0.739312 0.594978 0.488792 0.965841 0.494713 
+0.706457 0.589746 0.529025 0.413783 0.351487 0.644126 0.431205 
+0.644703 0.610403 0.541329 0.414353 0.331326 0.715399 0.413503 
+0.551219 0.393481 0.434307 0.32285 0.208421 0.580903 0.212352 
+0.453707 0.428275 0.399451 0.297457 0.283518 0.488713 0.325158 
+1.01721 0.792876 0.706159 0.534892 0.439225 1.00735 0.453908 
+0.546016 0.409734 0.425128 0.217789 0.334802 0.446833 0.365467 
+
+vertex 1 of first graph  is most similiar to  vertex 3 of second graph
+vertex 2 of first graph  is most similiar to  vertex 4 of second graph
+vertex 3 of first graph  is most similiar to  vertex 2 of second graph
+vertex 4 of first graph  is most similiar to  vertex 6 of second graph
+vertex 5 of first graph  is most similiar to  vertex 7 of second graph
+vertex 6 of first graph  is most similiar to  vertex 1 of second graph
+vertex 7 of first graph  is most similiar to  vertex 5 of second graph
+
+-----Input3-------------------------------
+
+Matrix A
+
+0 1 0 0 0 0 0
+0 1 0 0 1 0 0
+0 1 0 1 0 1 1
+0 0 1 0 1 1 0
+0 1 0 1 0 1 0
+0 0 1 1 1 0 1
+0 0 1 0 0 1 0
+
+Matrix B
+
+0 1 1 0 0
+1 0 1 1 1
+1 1 0 1 1
+0 1 1 0 1
+0 1 1 1 0
+
+----------------Output3--------------------
+
+$ ./a.out 5 7
+-----------H-------------
+0.692625 0.882541 0.0875991 0.236773 0.447034 0.583905 0.0195352 
+0.939302 0.71689 0.335152 0.903269 0.293649 0.915385 0.128047 
+0.9204 0.751364 0.819139 0.0708725 0.456465 0.34474 0.635304 
+0.617298 0.481614 0.156932 0.807351 0.715247 0.435422 0.939936 
+0.714146 0.488273 0.557202 0.653177 0.892179 0.696003 0.745346 
+enter the value of s 
+15
+
+enter the value of n : 
+1000
+enter the value of alpha :
+0.867
+1 2 4 3 3 4 2 
+
+2 4 4 3 3 
+
+simi matrix
+
+
+0.0934661 0.592718 0.394324 0.40832 0.53032 0.485835 0.201865 
+0.148799 1.18275 0.674199 0.734588 0.976352 0.928346 0.388083 
+0.0963453 1.18988 0.59918 0.796349 1.01329 0.941199 0.483131 
+0.0746786 0.829487 0.515075 0.508038 0.780562 0.683348 0.326086 
+0.100361 0.854324 0.517062 0.51318 0.765886 0.728604 0.340015 
+
+vertex 1 of first graph  is most similiar to  vertex 4 of second graph
+vertex 2 of first graph  is most similiar to  vertex 5 of second graph
+vertex 3 of first graph  is most similiar to  vertex 2 of second graph
+vertex 4 of first graph  is most similiar to  vertex 3 of second graph
+vertex 5 of first graph  is most similiar to  vertex 6 of second graph
+
+-----Input4-------------------------------
+
+Matrix A
+
+0 1 0 0 0 0 0 0 1 1
+1 0 0 0 1 1 0 1 1 0
+0 0 0 1 1 0 0 1 1 0
+0 0 1 0 0 1 0 0 0 0
+0 1 1 0 0 1 0 1 1 1
+0 1 0 1 1 0 1 1 0 0
+0 0 0 0 0 1 0 0 0 1
+0 1 1 0 1 1 0 0 0 0
+1 1 1 0 1 0 0 0 0 0
+1 0 0 0 1 0 1 0 0 0
+
+Matrix B
+
+0 1 0 0 0 0 0 0 1 1
+1 0 0 0 1 1 0 1 1 0
+0 0 0 1 1 0 0 1 1 0
+0 0 1 0 0 1 0 0 0 0
+0 1 1 0 0 1 0 1 1 1
+0 1 0 1 1 0 1 1 0 0
+0 0 0 0 0 1 0 0 0 1
+0 1 1 0 1 1 0 0 0 0
+1 1 1 0 1 0 0 0 0 0
+1 0 0 0 1 0 1 0 0 0
+----------------Output4--------------------
+
+
+
+
+$ ./a.out 10 10
+-----------H-------------
+0.887471 0.77352 0.133626 0.691825 0.994611 0.984179 0.503188 0.431687 0.782427 0.754072 
+0.95964 0.787216 0.866915 0.388909 0.202506 0.390278 0.00781804 0.0285897 0.534879 0.880331 
+0.701507 0.145464 0.459937 0.443133 0.75676 0.27011 0.0271661 0.807176 0.306804 0.701536 
+0.46047 0.569972 0.660366 0.393331 0.140075 0.444116 0.946321 0.188447 0.0525371 0.781238 
+0.786229 0.714667 0.0550781 0.849379 0.772478 0.0506434 0.401149 0.168665 0.978995 0.826652 
+0.667662 0.0704939 0.692704 0.229362 0.471427 0.325188 0.876545 0.579654 0.357447 0.102686 
+0.308055 0.198568 0.969052 0.0609934 0.210569 0.13682 0.175684 0.659874 0.377725 0.657783 
+0.199624 0.785225 0.990805 0.157434 0.971046 0.0196955 0.462143 0.379233 0.115815 0.00233554 
+0.908551 0.192626 0.501438 0.428986 0.256652 0.315993 0.0339788 0.5507 0.377143 0.564829 
+0.837177 0.0131327 0.483493 0.969544 0.403194 0.638257 0.60467 0.916526 0.693718 0.691762 
+enter the value of s 
+20
+
+enter the value of n : 
+1000
+enter the value of alpha :
+0.876
+3 5 4 2 6 5 2 4 4 3 
+
+3 5 4 2 6 5 2 4 4 3 
+
+simi matrix
+
+
+0.388591 0.55746 0.387211 0.266157 0.671822 0.579765 0.253112 0.402015 0.465545 0.380532 
+0.56711 0.837955 0.701704 0.334986 0.900402 0.802871 0.298231 0.580183 0.665839 0.584414 
+0.448795 0.587224 0.515329 0.288151 0.797578 0.63999 0.245898 0.562377 0.517385 0.467807 
+0.227524 0.366118 0.317306 0.161756 0.360773 0.348959 0.235353 0.24515 0.237528 0.283729 
+0.628675 0.981439 0.722421 0.456137 1.15432 0.90329 0.410193 0.707869 0.839984 0.666155 
+0.552982 0.728037 0.660943 0.334634 0.974314 0.793199 0.425988 0.666559 0.654832 0.480095 
+0.217958 0.341645 0.379953 0.128117 0.39072 0.344891 0.146053 0.314103 0.290843 0.289783 
+0.379571 0.676479 0.586376 0.244125 0.811067 0.578685 0.296376 0.49282 0.47859 0.361312 
+0.488826 0.62429 0.544941 0.283176 0.749366 0.636053 0.258349 0.53075 0.527129 0.440475 
+0.40321 0.467692 0.435542 0.306906 0.625661 0.548273 0.277185 0.480779 0.462946 0.374214 
+
+vertex 1 of first graph  is most similiar to  vertex 6 of second graph
+vertex 2 of first graph  is most similiar to  vertex 2 of second graph
+vertex 3 of first graph  is most similiar to  vertex 8 of second graph
+vertex 4 of first graph  is most similiar to  vertex 7 of second graph
+vertex 5 of first graph  is most similiar to  vertex 5 of second graph
+vertex 6 of first graph  is most similiar to  vertex 1 of second graph
+vertex 7 of first graph  is most similiar to  vertex 10 of second graph
+vertex 8 of first graph  is most similiar to  vertex 3 of second graph
+vertex 9 of first graph  is most similiar to  vertex 9 of second graph
+vertex 10 of first graph  is most similiar to  vertex 4 of second graph
+
+-----Input5-------------------------------
+
+Matrix A
+
+0 0 1 1 0 0
+0 0 0 1 0 1
+1 0 0 0 1 1
+1 1 0 0 0 0
+0 0 1 0 0 0
+0 1 1 0 0 0
+
+Matrix B
+
+0 1 1 0
+1 0 1 0
+1 1 0 1
+0 0 1 0
+
+----------------Output5--------------------
+
+
+$ ./a.out 4 6
+-----------H-------------
+0.322501 0.589228 0.277586 0.390817 0.400847 0.40511 
+0.905171 0.272431 0.48373 0.48263 0.418062 0.0449714 
+0.57908 0.440988 0.411652 0.76117 0.807301 0.232178 
+0.462147 0.347281 0.0768985 0.380004 0.700833 0.153573 
+enter the value of s 
+15
+
+enter the value of n : 
+1000
+enter the value of alpha :
+0.876
+2 2 3 2 1 2 
+
+2 2 3 1 
+
+simi matrix
+
+
+0.418731 0.37874 0.580631 0.435547 0.242987 0.40419 
+0.476196 0.420425 0.633313 0.396533 0.275043 0.379353 
+0.642528 0.619706 0.977911 0.655016 0.338842 0.566237 
+0.234346 0.211681 0.300096 0.260429 0.16249 0.188643 
+
+vertex 1 of first graph  is most similiar to  vertex 6 of second graph
+vertex 2 of first graph  is most similiar to  vertex 1 of second graph
+vertex 3 of first graph  is most similiar to  vertex 3 of second graph
+vertex 4 of first graph  is most similiar to  vertex 4 of second graph
+
+-----Input6-------------------------------
+
+Matrix A
+
+0 1 1 0 1 1 0 1
+1 0 1 1 0 0 0 0
+1 1 0 0 0 1 0 0
+0 1 0 0 0 0 1 0
+1 0 0 0 0 1 0 0
+1 0 1 0 1 0 1 1
+0 0 0 1 0 1 0 0
+1 0 0 0 0 1 0 0
+
+Matrix B
+
+0 1 1 0 1 1 0 1
+1 0 1 1 0 0 0 0
+1 1 0 0 0 1 0 0
+0 1 0 0 0 0 1 0
+1 0 0 0 0 1 0 0
+1 0 1 0 1 0 1 1
+0 0 0 1 0 1 0 0
+1 0 0 0 0 1 0 0
+----------------Output6.1--------------------
+
+
+$ ./a.out 8 8
+-----------H-------------
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 
+enter the value of s 
+15
+
+enter the value of n : 
+1000
+enter the value of alpha :
+0.787
+5 3 3 2 2 5 2 2 
+
+5 3 3 2 2 5 2 2 
+
+simi matrix
+
+
+0 1.54687 1.45051 1.16441 1.00743 2.4813 1.12746 1.00743 
+1.54687 0 0.976019 0.789095 0.706014 1.57794 0.774568 0.706014 
+1.4505 0.976019 0 0.747296 0.689575 1.47195 0.742852 0.689575 
+1.16441 0.789093 0.747296 0 0.555968 1.19019 0.609495 0.555968 
+1.00743 0.706012 0.689575 0.555968 0 1.01863 0.556554 0.52562 
+2.4813 1.57794 1.47195 1.1902 1.01863 0 1.14732 1.01863 
+1.12746 0.774568 0.74285 0.609495 0.556552 1.14732 0 0.556552 
+1.00743 0.706012 0.689575 0.555968 0.52562 1.01863 0.556554 0 
+
+vertex 1 of first graph  is most similiar to  vertex 6 of second graph
+vertex 2 of first graph  is most similiar to  vertex 3 of second graph
+vertex 3 of first graph  is most similiar to  vertex 2 of second graph
+vertex 4 of first graph  is most similiar to  vertex 7 of second graph
+vertex 5 of first graph  is most similiar to  vertex 8 of second graph
+vertex 6 of first graph  is most similiar to  vertex 1 of second graph
+vertex 7 of first graph  is most similiar to  vertex 4 of second graph
+vertex 8 of first graph  is most similiar to  vertex 5 of second graph
+
+----------------Output6.2--------------------
+
+
+$ ./a.out 8 8
+-----------H-------------
+1 0.0367358 0.967572 0.651477 0.113758 0.259323 0.59409 0.385339 
+0.354548 1 0.876416 0.084702 0.0396313 0.59028 0.387987 0.462044 
+0.86675 0.140687 1 0.548429 0.451948 0.0992358 0.881106 0.617715 
+0.400147 0.0191955 0.300332 1 0.499219 0.642338 0.252551 0.183192 
+0.385461 0.383015 0.658461 0.797853 1 0.613202 0.474418 0.221253 
+0.00367331 0.0229218 0.0864311 0.75921 0.180257 1 0.300637 0.790596 
+0.728309 0.618438 0.419531 0.172881 0.449594 0.217137 1 0.234993 
+0.950375 0.574799 0.661064 0.0518009 0.0800403 0.580774 0.125895 1 
+enter the value of s 
+15
+
+enter the value of n : 
+1000
+enter the value of alpha :
+0.787
+5 3 3 2 2 5 2 2 
+
+5 3 3 2 2 5 2 2 
+
+simi matrix
+
+
+0 0.661312 0.82101 0.60508 0.417126 1.19169 0.556954 0.474971 
+0.685865 0 0.532783 0.261389 0.252841 0.782922 0.390598 0.342814 
+0.785976 0.400575 0 0.37781 0.332848 0.61651 0.445698 0.368155 
+0.540188 0.24389 0.335181 0 0.262768 0.62104 0.199947 0.195452 
+0.459471 0.335327 0.36993 0.32151 0 0.514048 0.283711 0.206648 
+1.11989 0.675932 0.632592 0.669499 0.432943 0 0.477488 0.562946 
+0.561986 0.431382 0.328296 0.181191 0.267244 0.446627 0 0.221534 
+0.5798 0.376177 0.370484 0.162599 0.176568 0.507141 0.209477 0 
+
+vertex 1 of first graph  is most similiar to  vertex 6 of second graph
+vertex 2 of first graph  is most similiar to  vertex 7 of second graph
+vertex 3 of first graph  is most similiar to  vertex 8 of second graph
+vertex 4 of first graph  is most similiar to  vertex 5 of second graph
+vertex 5 of first graph  is most similiar to  vertex 4 of second graph
+vertex 6 of first graph  is most similiar to  vertex 1 of second graph
+vertex 7 of first graph  is most similiar to  vertex 2 of second graph
+vertex 8 of first graph  is most similiar to  vertex 3 of second graph
+
